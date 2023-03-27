@@ -1,0 +1,11 @@
+conf:
+  region:                         us-east-1
+  account:                        000000000000
+  env:                            prod
+
+  log_retention:                  30
+
+  deployment_bucket:              deployment-bucket-name
+  deployment_prefix:               serverless-examples
+  example_queue_name:             example-name
+  sns_order_status:               example-order-status
